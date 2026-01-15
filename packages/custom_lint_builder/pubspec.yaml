@@ -12,7 +12,8 @@ dependencies:
   collection: ^1.16.0
   # Using tight constraints as custom_lint_builder communicate with each-other
   # using a specific contract
-  custom_lint: 0.8.1
+  custom_lint:
+    path: ../custom_lint
   # Using tight constraints as custom_lint_builder communicate with each-other
   # using a specific contract
   custom_lint_core: 0.8.1
